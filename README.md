@@ -79,8 +79,8 @@ python folder_audit_v4.py /data/archive --hash --json-output audit.json
 
 Suitable for:
 
-* documentation
-* spreadsheets
+* Flat, spreadsheet friendly format
+* Reporting, filtering and manual inspection
 * client reports
 
 Includes:
@@ -96,8 +96,8 @@ Includes:
 
 Suitable for:
 
-* automation
-* scripting
+* automation, pipelines, or further processing
+* Structured, machine readable format
 * integration with other tools
 
 Includes:
@@ -126,6 +126,14 @@ SHA-256 output validated against external tools.
 
 ---
 
+## Limitations
+
+* No filedeletion or movement (by design)
+* Network paths require appropriate permissions
+* Hashing largendatasets may take time on slower storage
+
+These limitations were intentional and documented to avoid unsafe behaviour.
+
 ## Future Direction
 
 Planned enhancements (opt-in and controlled):
@@ -138,12 +146,19 @@ Planned enhancements (opt-in and controlled):
 
 ---
 
+## License
+MIT
+Free to use modify and adapt
+
 ## Author
 
-Developed as a portfolio project focused on **real-world technical workflows**, safe tooling, and evidence-based decision support.
+Developed Built as part of an ongoing effort to develop reliable, audit-focused Python utilities,
+combining structured programming practices with AI-assisted development.
+
 Darren Williamson
 Python Utility Development * Automation * Data Analysis
 Uk Citizen / Spain-based / Remote
 LinkedIn: https://www.linkedin.com/in/darren-williamson3/
 ---
+
 
