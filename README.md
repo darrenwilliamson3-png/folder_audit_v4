@@ -1,7 +1,17 @@
 # Folder Audit – V4
 
 **Safe file auditing and duplicate verification for IT professionals**
-(Source code available on request or as part of paid engagements)
+
+## Commercial use
+This tool is published as a portfolio demonstration of real-world automation and analysis:
+
+If you are interested in:
+ * Customisation
+ * Integration
+ * Commercial Use
+ * Support or enhancements
+
+Please contact me via linkedIn or Github.
 
 ## Purpose
 
@@ -147,8 +157,9 @@ Planned enhancements (opt-in and controlled):
 ---
 
 ## License
-MIT
-Free to use modify and adapt
+
+This project is provided for evaluation and portfolio demonstration purposes.
+Commercial use, redistribution, or resale requires explicit permissions from the author.
 
 ## Author
 
@@ -160,5 +171,6 @@ Python Utility Development * Automation * Data Analysis
 Uk Citizen / Spain-based / Remote
 LinkedIn: https://www.linkedin.com/in/darren-williamson3/
 ---
+
 
 
